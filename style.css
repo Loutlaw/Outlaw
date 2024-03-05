@@ -1,3 +1,31 @@
-body {
-    background:orange;
+.shoeImage1{
+   display:block;
+   height:100px;
+   width:auto; 
 }
+
+.shoeImage2 {
+    display:block;
+    height:60px;
+    width:auto;    
+}
+
+
+.shoeImage3 {
+    display:block;
+    height:100px;
+    width:auto; 
+
+}
+
+.form {
+    display:flex;
+    justify-content:center;
+}
+
+h1{
+    text-align:center;
+}
+
+
+
