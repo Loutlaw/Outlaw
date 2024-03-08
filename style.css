@@ -1,10 +1,18 @@
 .shoeImage1{
-   display:block;
-   height:100px;
-   width:auto; 
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  
 }
 
-.shoeImage2 {
+ button{
+    text-align: center ;
+    margin: 0 auto ;
+    width: fit-content;
+} 
+
+/* .shoeImage2 {
     display:block;
     height:60px;
     width:auto;    
@@ -16,16 +24,38 @@
     height:100px;
     width:auto; 
 
-}
+} */
 
-.form {
+.inputs {
     display:flex;
     justify-content:center;
+    flex-direction:column;
+
+   
 }
 
 h1{
     text-align:center;
 }
 
+.shoe1{
+    display:flex;
+    justify-content:center;
+   
+}
+
+
+
+/* .shoe2{
+    display:flex;
+    justify-content:center;
+   
+}
+
+.shoe3{
+    display:flex;
+    justify-content:center;
+   
+} */
 
 
