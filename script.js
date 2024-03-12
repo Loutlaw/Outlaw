@@ -3,9 +3,13 @@ let shoeName = document.querySelector(".shoe-name");
 let shoeSize = document.querySelector(".shoe-size");
 let shoeCost = document.querySelector(".shoe-cost");
 
-let button = document.querySeelcotr (".button");
+let button = document.querySelector ("button");
 
-button.onclick = function() {
+
+let display = document.querySelector (".display");
+
+
+
 
 
 let shoe1 = {
@@ -31,13 +35,28 @@ size: "11W",
 cost:"$200"
 };
 
+
+
 let allShoes = [shoe1,shoe2,shoe3];
 
+
+
+
+
+
+button.onclick = function() {
+console.log("button check");
+
+display.innerHTML = "";
+        
+ 
 
 let userImage = image.value;
 let userShoeName = shoeName.value;
 let userShoeSize = shoeSize.value;
 let userShoeCost = shoeCost.value;
+console.log(userImage);
+
 
 let newShoes = {
     image:userImage,
@@ -47,11 +66,22 @@ let newShoes = {
     };
 
     allShoes.push(newShoes);
+    console.log(allShoes);
 
-function emptyDisplay(){
-display.innerHTML = "";
+    allShoes.forEach(function(shoe) {
+        console.log(shoe.name);
 
-}
+        display.insertAdjacentHTML("beforeend", `<img src = ${shoe.image}> <p> ${shoe.name}</p>  <p> ${shoe.size} </p> <p>${shoe.cost}</p>` );
+
+
+
+
+
+    });
+
+
+
+
 
 
 
