@@ -4,14 +4,20 @@ img{
   margin-right: auto;
   width: 60%;
  
+ 
   
 }
 
  button{
     text-align: center ;
-    margin: 0 auto ;
+    margin: 20px auto ;
     width: fit-content;
+   background-color:#8B4B54;
+   color:#FFFDD0;
+   font-size:20px;
+   font-family: "Open Sans", sans-serif;
 } 
+
 
 p{
     text-align:center;
@@ -25,14 +31,23 @@ p{
     display:flex;
     justify-content:center;
     flex-direction:column;
-  
+    margin:5px;
 
    
+}
+
+
+input{
+margin:5px;
+height:35px;
+ text-align:center; 
+
 }
 
 h1{
     text-align:center;
     font-family: "Comfortaa", sans-serif;
+    
 }
 
 .shoe1{
@@ -43,6 +58,6 @@ h1{
 
 body {
     color:#8B4B54;
+   
 }
-
 
